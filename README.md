@@ -1,6 +1,8 @@
 # climag
 Agricultural impacts of climate change with a focus on uncertainty quantification
 
+model_results: contains all of the yield hindcasts and projections; processing de-trends the county-level yields (via the state trends) and offsets the model results so that the time series mean of each county matches the USDA value
+
 response: store yield response functions from the American Climate Prospectus (Hsiang et. al., Science)
 
 usda_yields: grabs the historical USDA corn yields as well as harvested areas, processes to account for county GEOID changes, adds in the “OTHER (COMBINED) COUNTIES” results and saves to CSV file, the county FIPS codes were downloaded from the USDA website; grabs the state yields and calculates a lowess filter to the logarithms (the state data is NOT the sum of the county data); grabs the national yield and calculates the logarithms (the state data is NOT the sum of the county or state data)
