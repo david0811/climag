@@ -4,7 +4,7 @@
 
 ### data
 - `ACI_output` contains all output from calculations run on PSU ICDS-ACI HPC cluster.
- * `raw` refers to the unprocessed data: GDD, eGDD, precipitation at the county level as well as yields without the county-fixed effects.  
+  - `raw` refers to the unprocessed data: GDD, eGDD, precipitation at the county level as well as yields without the county-fixed effects.  
  * `processing` processes the raw output: adds the county-fixed effects to the yields (aligns the means).
 - `USDA` contains all code to grab and process historical corn yields from the USDA server.
  * `usda_grab` grabs the historical USDA corn yields as well as harvested areas and processes them to account for county GEOID changes, adds in the “OTHER (COMBINED) COUNTIES” results and saves to CSV file. County FIPS codes were downloaded from the USDA website.
