@@ -13,6 +13,7 @@ The `data` directory contains all of the 'input' data and its processing, includ
 - `raster` calculates the growing area for corn in each grid cell (from EarthStat) and saves to geopandas file.
 - `response` stores yield response functions, taken from the [Hsiang et. al.](https://science.sciencemag.org/content/356/6345/1362.full?ijkey=x3wZ8kcgtomUM&keytype=ref&siteid=sci) but originally Schlenker-Roberts form.
 - `grids` combines the nex/gmfd grids with the county shapefiles to produce a finer grid for the yield model, and weights each grid cell within a given county by the corn growing area (the weights sum to 1). It is also run to produce the area-weighted grid for the agvar calculation.
+- `conus_shp` contains all GeoPandas data files and processing necessary for grid calculations and plotting.
 
 ### Analysis
 The `analysis` directory contains everything required to make the plots, or generally to extract useful insight from this project.
