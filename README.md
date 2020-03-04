@@ -23,3 +23,4 @@ The `analysis` directory contains everything required to make the plots, or gene
 ### Needs checking...
 - Do the yields change significantly if calculated without using the EarthStat weights (corn growing area) and instead by a simple area average?
 - Calculate the NEX AgVar projections
+- GMFD yields have only been calculated from 1960 onwards but GMFD data starts in 1954??
