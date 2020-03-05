@@ -18,7 +18,7 @@ The `data` directory contains all of the 'input' data and its processing, includ
 ### Analysis
 The `analysis` directory contains everything required to make the plots, or generally to extract useful insight from this project.
 - `weights` contains the county-to-national aggregation weights, taken as the production fraction by each county, each year, from the USDA data.
-- `combine` takes all agvar and yield data files and combines them into one datafile.
+- `combine` takes all agvar/yield data files and combines them into one datafile.
 
 ### Needs checking...
 - Do the yields change significantly if calculated without using the EarthStat weights (corn growing area) and instead by a simple area average?
