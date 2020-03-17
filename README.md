@@ -18,5 +18,7 @@ The `data` directory contains all of the 'input' data and its processing, includ
 
 ### Analysis
 The `analysis` directory contains everything required to make the plots, or generally to extract useful insight from this project.
-- `weights` contains the county-to-national aggregation weights, taken as the production fraction by each county, each year, from the USDA data.
+- `county` looks at county-level metrics and plots.
+- `national` looks at national-level metrics and plots.
+  - `weights` contains the county-to-national aggregation weights, taken as the production fraction by each county, each year, from the USDA data.
 - `combine` takes all agvar/yield data files and combines them into one datafile.
